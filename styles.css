@@ -1,0 +1,27 @@
+.habit-container {
+}
+
+.new-habit-modal {
+  /* display: none; */
+}
+
+.new-habit-modal-active {
+  display: block;
+}
+
+.habits-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.habits {
+  border: solid 1px red;
+}
+
+.habit {
+  cursor: pointer;
+}
+.habit-completed {
+  color: green;
+  text-decoration: line-through;
+}

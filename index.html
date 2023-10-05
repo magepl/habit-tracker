@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Atomic Habit Tracker</title>
+  </head>
+  <body>
+    <h1>Atomic Habit Tracker</h1>
+    <button class="new-habit-btn">New Habit</button>
+    <section class="new-habit-modal">
+      <input
+        type="text"
+        name="habit-name"
+        id="habit-name"
+        placeholder="New Habit"
+      />
+      <input
+        type="number"
+        name="habit-hours"
+        id="habit-hours"
+        placeholder="hours"
+      />
+      <label for="habit-repeat">Repeat?</label>
+      <input type="checkbox" name="habit-repeat" id="" />
+      <button class="add-new-habit">Add Habit</button>
+      <button class="close-modal">Cancel</button>
+    </section>
+    <section class="habits-container">
+      <div class="habits">
+        <h2>Today</h2>
+        <ul class="habit-container"></ul>
+        <h4>Hours remaining:</h4>
+      </div>
+      <div class="habits">
+        <h2>Tomorrow</h2>
+        <h4>Hours remaining:</h4>
+        <ul></ul>
+      </div>
+      <div class="habits">
+        <h2>Next Week</h2>
+        <h4>Hours remaining:</h4>
+        <ul></ul>
+      </div>
+    </section>
+    <script type="module" src="./main.js" defer></script>
+  </body>
+</html>
